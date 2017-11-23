@@ -1,0 +1,23 @@
+{
+  "name": "minidux",
+  "version": "1.0.0",
+  "description": "A mini version of Redux, for learning purposes only.",
+  "main": "index.js",
+  "author": "André Vargas <andrelv510@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "@app(.*)$": "<rootDir>/src/$1"
+    }
+  }
+}
